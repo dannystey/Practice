@@ -14,11 +14,6 @@
   -webkit-text-size-adjust: 100%;
 }
 
-body {
-  background: rgb(61,34,82);
-  background: linear-gradient(0deg, rgba(61,34,82,1) 0%, rgba(36,36,105,1) 50%, rgba(18,10,61,1) 100%);
-}
-
 a {
   font-weight: 500;
   color: #646cff;
@@ -30,10 +25,9 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
   min-height: 100vh;
+  background: rgb(61,34,82);
+  background: linear-gradient(0deg, rgba(61,34,82,1) 0%, rgba(36,36,105,1) 50%, rgba(18,10,61,1) 100%);
 }
 
 h1 {
