@@ -11,10 +11,11 @@
     <input type="text" bind:value={query} id="city-filter-input">
   </div>
   <div class="map-container">
-    {#each filteredCities as city}
+    {#each cities as city}
       <i class="dot" data-name="{city.name} {city.country_name}" 
       style:left="{(Number(city.longitude) + 180)/3.6}%"
       style:bottom="{(Number(city.latitude) + 90)/1.8}%"
+      class:hide={query && query.length && !city.name.toLowerCase().startsWith(query.toLowerCase())}
       >
     </i>
     {/each}
@@ -44,6 +45,11 @@
     height: 0.25rem;
     border-radius: 100%;
     cursor: pointer;
+    transition: opacity 0.3s ease-in;
+
+    &.hide {
+      opacity: 0;
+    }
 
     &::after {
       content : attr(data-name);
