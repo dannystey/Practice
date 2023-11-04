@@ -10,7 +10,7 @@ Fährt man mit der Maus über einen dieser Punkte Soll ein Tooltip aufgehen, das
 Somit entsteht durch die Punkte eine imaginäre Weltkarte.
 
 ### Subtask 2
-Über der imaginäre Karte soll mittig ein Suchfeld stehen. In diesem Suchfeld kann ich nach einem Städtenamen suchen, dabei blenden sich beim tippen die Punkte aus, die nicht mit diesem Namen übereinstimmen.
+Über der imaginäre Karte soll mittig ein Suchfeld stehen. In diesem Suchfeld kann ich nach einem Städtenamen suchen, dabei blenden sich beim tippen die Stadt-Punkte aus, die nicht mit diesem Namen übereinstimmen.
 
 
 ## Requirements
